@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacts</title>
+</head>
+<body>
+	<header>
+			<h1>Контакты</h1>
+			<nav> <!-- menu -->
+				<a href="./2_html_cv.html">CV</a>
+				<a href="./2_html_contacts.html">Contacts</a>
+			</nav>
+	</header>
+	<section>
+		<h2>Написать мне</h2>
+		<form action="#" method="post">
+			<label>
+				Ваше имя: 
+				<input type="text" name="name">
+			</label>
+			<br />
+			<br />
+			<label>
+				Ваш email: 
+				<input type="text" name="email">
+			</label>
+			<br />
+			<br />
+			<label>
+				Ваш телефон: 
+				<input type="text" name="phone">
+			</label>
+			<br />
+			<br />
+			<article>По вопросу?</article>
+			<label>
+				<input type="radio" name="question" value="privet" checked> Личное
+			</label>
+			<br />
+			<label>
+				<input type="radio" name="question" value="business"> Сотрудничество
+			</label>
+			<br />
+			<br />
+			<label>
+				Сообщение:
+				<br />
+				<textarea name="message" rows="3" cols="40"></textarea>
+			</label>
+			<br />
+			<br />
+			<article>Получить ответ:</article>
+			<select name="feedback" multiple size="2">
+				<option value="phone">На телефон</option>
+				<option value="mail" selected>На email</option>
+			</select>
+			<br />
+			<br />
+			<label>
+				Согласен с условиями: 
+				<input type="checkbox" checked>
+			</label>
+			<br />
+			<br />
+			<input type="submit" value="Отправить">
+		</form>
+	</section>
+</body>
+</html>
